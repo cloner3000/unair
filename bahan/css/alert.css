@@ -1,0 +1,12 @@
+div.proses{
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	background-color: #FFBD5E;
+	color: white;
+	max-width: 250px;
+	margin-left: 555px;
+	margin-top: -450px;
+}
+.none{
+	display: none;
+}

@@ -1,0 +1,30 @@
+div.klik{
+	background-color: white;
+	border: 1px solid #ddd;
+	border-radius: 1px;
+	padding: 30px 15px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: times new roman;
+	margin-top: 10px;
+	line-height: 40px;
+	max-width: 400px;
+	cursor: pointer;
+	transition: 0.9s;
+}
+div.klik:hover{
+	transition: 0.9s;
+	background-color: #4F62AA;
+	color: white;
+	transform: scale(1.1);
+}
+@media (max-width: 500px){
+	div.klik{
+		padding: 20px 10px;
+		transition: 0.9s;
+	}
+	div.klik:hover{
+		transition: 0.9s;
+		transform: scale(1.05);
+	}
+}
